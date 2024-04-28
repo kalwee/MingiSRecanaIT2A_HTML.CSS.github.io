@@ -1,0 +1,200 @@
+body {
+    background: linear-gradient(120deg, darkblue, #ff00eec0, darkblue);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Century Gothic;
+    font-size: 12px;
+}
+.wrapper{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.Header{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.Nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.Nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+.Nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	background: linear-gradient(to right, #bb00ff, #ff00ee); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+.Nav ul li a:hover{
+	/*text-decoration: underline;*/
+	color: #FFFFFF;
+	border: 1px solid black;
+	background:rgba(255, 255, 255, 0.2);
+	/*border-radius: 5px;*/
+}
+.Banner{
+	width: 100%;
+	height: 250px;
+}
+.Banner img{
+	width: 100%;
+	height: 250px;
+}
+.Main{
+	min-height: 500px;
+}
+
+.Content {
+    width: 550px;
+    min-height: 500px;
+    margin: 10px auto; /* Changed 'float' to 'auto' and added 'auto' for horizontal centering */
+}
+
+.Content h1 {
+    padding: 0;
+    margin: 0;
+	background: linear-gradient(to right, #bb00ff, #ff00ee); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    border-bottom: 1px solid;
+}
+
+.Content h2 {
+    color: black;
+}
+
+.Content p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+.footer{
+	clear: both;
+	border-top: 1px solid Black;
+	padding: 10px;
+	text-align: center;
+}
+.footer p{
+	font-weight: bold;
+}
+.footer img{
+	padding: 0;
+	margin: 0;
+}
+.Services {
+	width: 45%;
+	min-height: 500px;
+	margin: 10px;
+}  
+.Services h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to right, #bb00ffd4, #ff00eec0); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Printing {
+	width: 45%;
+	min-height: 500px;
+	margin: 10px;
+}
+.Printing h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to right, #bb00ffd4, #ff00eec0); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+.wrapper2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+		float: left; /* Make the wrapper float */
+		width: 100%;
+}
+.container {
+	width: 900px;
+	height: 1300px;
+	margin: 20px auto;
+	background: rgba(255, 255, 255, 0.5);;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+} 
+.Header2 {
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+.body2 {
+	background: linear-gradient(120deg, darkblue, salmon, darkblue);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Century Gothic;
+    font-size: 12px;
+	background-size: cover;
+}
+.goback {
+	position: absolute;
+	bottom: 140px; /* Adjust the distance from the bottom as needed */
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+	color: blue;
+	border: 1px solid black; /* Add border */
+	padding: 5px 10px; /* Add padding for better appearance */
+	border-radius: 2px;
+}
+.goback:hover {
+	color: black; /* Change color on hover */
+	background-image: linear-gradient(to right, #bb00ffd4, #ff00eec0); /* Add gradient on hover */
+	font-weight: bolder;
+}
+.footer2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    border-top: 1px solid Black;
+    padding: 10px;
+    text-align: center;
+}
+.footer2 p{
+	font-weight: bold;
+}
+.footer2 img{
+	padding: 0;
+	margin: 0;
+}
